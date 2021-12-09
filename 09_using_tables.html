@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="aim for lesson" content="Using tables">
+    <title>Tables</title>
+</head>
+
+<body>
+    <h2>
+        Main Operating Systems
+    </h2>
+    <table border="2">
+        <tr>
+            <th>
+                OS
+            </th>
+            <th>
+                Creator
+            </th>
+            <th>
+                Year of make
+            </th>
+        </tr>
+        <tr>
+            <td>
+                Linux
+            </td>
+            <td>
+                Linus Torvalds
+            </td>
+            <td>
+                1991
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Mac OSX
+            </td>
+            <td>
+                Steve Jobs
+            </td>
+            <td>
+                1972
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Windows
+            </td>
+            <td>
+                Bill Gates
+            </td>
+            <td>
+                1971
+            </td>
+        </tr>
+    </table>
+
+    <!-- Using row groups -->
+    <h2>Different programming languages</h2>
+    <table border="4">
+        <thead>
+            <tr>
+                <th>Language</th>
+                <th>Speed</th>
+                <th>Learning curve</th>
+                <th>Size of binaries</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Python</td>
+                <td>Slow</td>
+                <td>Easy to learn</td>
+                <td>very High</td>
+            </tr>
+            <tr>
+                <td>C</td>
+                <td>Fast</td>
+                <td>Steep. Hard to learn</td>
+                <td>small</td>
+            </tr>
+            <tr>
+                <td>Assembly</td>
+                <td>Very fast</td>
+                <td>Very steep. very hard to learn</td>
+                <td>very small</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <!-- Use rowspan and colspan to stretch to cells that r redundant -->
+                <td colspan="4" align="center">My programming stack</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
