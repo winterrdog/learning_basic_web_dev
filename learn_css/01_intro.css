@@ -1,0 +1,18 @@
+/* format for CSS rules */
+
+
+/* selector {
+    property: value;
+    property: value;
+} */
+
+h1 {
+    text-decoration: underline;
+    color: rgb(82, 139, 185);
+}
+
+p {
+    padding-left: 20px;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
