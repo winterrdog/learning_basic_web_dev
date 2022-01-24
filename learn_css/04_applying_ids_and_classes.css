@@ -2,8 +2,70 @@
 extend it in this file */
 
 @import url("./03_properties.css");
+
+/* class selectors */
+
+.contentDetailed {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: oblique;
+    font-kerning: auto;
+    color: rgb(33, 63, 3);
+    padding: 10px;
+    margin: auto;
+    border: 2px dotted brown;
+}
+
+.important {
+    color: rgb(146, 152, 170);
+    text-indent: 12px;
+    background-blend-mode: color-dodge;
+    border: 3px solid peru;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(68, 55, 31);
+}
+
+.importantText {
+    font-size: medium;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+}
+
+
+/* id selectors */
+
 #note {
-    color: gray;
+    color: rgb(85, 73, 66);
     background-color: gainsboro;
     padding: 30px;
+    margin: 20px;
+    text-indent: 12px;
+    border: 3px solid peru;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#footer_end {
+    background-color: rgb(54, 54, 56);
+    padding: 20px;
+    border: 12px;
+    margin: 50px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    color: antiquewhite;
+}
+
+
+/* parentSelectors and childSelectors */
+
+.important h3 {
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+#note h3 {
+    font-size: 25px;
+    text-decoration: underline;
 }
