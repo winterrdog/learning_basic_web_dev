@@ -1,0 +1,9 @@
+/* We shall import some of the CSS code from "03_properties.css" file and 
+extend it in this file */
+
+@import url("./03_properties.css");
+#note {
+    color: gray;
+    background-color: gainsboro;
+    padding: 30px;
+}
