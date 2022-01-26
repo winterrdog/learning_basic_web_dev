@@ -18,7 +18,7 @@ extend it in this file */
 }
 
 .important {
-    color: hsl(30, 40%, 50%);
+    color: hsl(135, 40%, 70%);
     text-indent: 12px;
     background-blend-mode: color-dodge;
     border: 3px solid peru;
