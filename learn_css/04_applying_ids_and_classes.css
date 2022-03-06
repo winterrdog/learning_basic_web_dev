@@ -2,11 +2,13 @@
 extend it in this file */
 
 @import url("./03_properties.css");
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@300&display=swap');
 
 /* class selectors */
 
 .contentDetailed {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 18px;
     font-weight: normal;
     font-style: oblique;
@@ -23,7 +25,7 @@ extend it in this file */
     background-blend-mode: color-dodge;
     border: 3px solid peru;
     margin: 10px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Eczar', serif;
     background-color: rgb(68, 55, 31);
 }
 
@@ -62,6 +64,7 @@ extend it in this file */
 /* parentSelectors and childSelectors */
 
 .important h3 {
+    font-family: 'Roboto Slab', serif;
     text-decoration: underline;
     font-size: 25px;
 }
