@@ -1,5 +1,6 @@
 /* type selectors */
 
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,700&family=Merriweather:ital,wght@1,900&display=swap');
 h1 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 60px;
@@ -21,6 +22,7 @@ h2 {
 }
 
 body {
+    font-family: 'IBM Plex Sans', sans-serif;
     background-color: bisque;
     padding: 100px;
     border: 3px double blueviolet;
